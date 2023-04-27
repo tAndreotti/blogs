@@ -23,7 +23,7 @@ const imageStorage = multer.diskStorage({
         // vai sair como data.jpg
         // se o sistema escalar muito, devemos mudar o sistema para evitar substituição de imagem
         // se o sistema escalar muito, usariamos a biblioteca uuid
-        cb(null, Date.now() + path.extname(file.originalname))
+        cb(null, Date.now() + path.extname(file.originalname));
     }
 });
 
