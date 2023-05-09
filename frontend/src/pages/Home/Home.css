@@ -1,0 +1,7 @@
+body {
+    background: url("../../../public/BackgroundA\ .png") center center no-repeat fixed;
+    ;
+    background-repeat: no-repeat;
+    background-position: center 45%;
+    background-size: cover;
+}

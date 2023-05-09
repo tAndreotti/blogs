@@ -1,0 +1,25 @@
+#login,
+#register {
+    justify-content: center;
+    text-align: center;
+    width: 50vw;
+    color: white;
+}
+
+#login h1,
+#register h1 {
+    margin-bottom: 24px;
+    font-weight: 800;
+    font-size: 4em;
+}
+
+.subtitle {
+    font-weight: 400;
+    margin-bottom: 24px;
+}
+
+#login p a,
+#register p a {
+    font-weight: 700;
+    color: rgb(15, 155, 31);
+}
